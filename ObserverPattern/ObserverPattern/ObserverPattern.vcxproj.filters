@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ab17612a-9ee7-4253-a95d-5100c973d36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{5900f0df-0c95-423f-9708-84872ec843a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer\TestObserver">
+      <UniqueIdentifier>{6c4c6d20-3ac7-4259-992f-24d76d9db89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subject">
+      <UniqueIdentifier>{2c6e143d-ad0a-40b2-b24a-88a3febe7b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subject\TestSubject">
+      <UniqueIdentifier>{427955bd-c3e9-44ed-aa66-8ce8dc456a48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSubject.cpp">
+      <Filter>Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSubject.cpp">
+      <Filter>Subject\TestSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObserver.cpp">
+      <Filter>Observer\TestObserver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseSubject.h">
+      <Filter>Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSubject.h">
+      <Filter>Subject\TestSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObserver.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObserver.h">
+      <Filter>Observer\TestObserver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
